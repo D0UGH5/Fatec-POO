@@ -38,4 +38,9 @@ public class Empresa {
     public void setRazaoSocial(String razaoSocial) {
         this.razaoSocial = razaoSocial;
     }
+
+    @Override
+    public String toString() {
+        return "\nRazão social: " + razaoSocial + "\nCNPJ: " + getCnpj() + "\nFone: " + fone;
+    }
 }
